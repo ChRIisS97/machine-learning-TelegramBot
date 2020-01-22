@@ -9,6 +9,7 @@ This Bot is based on [NodeJS](https://nodejs.org/en/) and the neuralNetwork [Bra
 If you want to test it then you can just search for **@MovieiumBot at Telegram** and talk to him 
 
 # Intruction
+Read Telegram & Twitter API first before you run **'node telegram.js'**
 ```ruby
 Download Zip 
 
@@ -22,6 +23,8 @@ then run 'node telegram.js'
 
 **[Messenger Telegram](https://telegram.org/)**  
 for chatting/interacting with your bot and to created a TelegramBot with the Botfather.
+
+When you got your key, go to telegram.js and place it in the placeholder
 ``` ruby
 var TelegramBot = require('node-telegram-bot-api'),
     telegram = new TelegramBot("--- Put your Key from Botfather here ---", {polling: true});
@@ -32,6 +35,8 @@ var TelegramBot = require('node-telegram-bot-api'),
 
 Publish and analyze Tweets, optimize ads, and create unique customer experiences. 
 And to creat a app to save your Keys to get tweets or analyze Tweets.
+
+When you got your key, go to getTweetsFromUser.py and place it in the placeholder
 ``` ruby
 consumer_key    = "--- place key after creating a app ---"
 consumer_secret = "--- place key after creating a app ---"
