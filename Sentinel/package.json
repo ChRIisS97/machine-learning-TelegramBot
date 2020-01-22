@@ -1,0 +1,22 @@
+{
+  "name": "sentinel",
+  "version": "1.0.0",
+  "description": "The project was created by a lecture module on the university of Design(HfG) in schwäbisch Gmünd with the topic machine learning. The result was a telegram bot that analyses sentences and gives you a probability of which person it might fit.",
+  "main": "telegram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-alpha.11",
+    "node-telegram-bot-api": "^0.40.0",
+    "papaparse": "^5.1.1",
+    "scripts": "^0.1.0",
+    "telegram-bot-api": "^1.3.3",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "comma-separated-values": "^3.6.4"
+  }
+}
