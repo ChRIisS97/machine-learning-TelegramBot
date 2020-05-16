@@ -16,7 +16,7 @@
     "telegram-bot-api": "^1.3.3",
     "twitter": "^1.7.1",
     "acorn": ">=7.1.1",
-    "minimist": ">=0.2.1"
+    "minimist": ">=1.2.3"
   },
   "devDependencies": {
     "comma-separated-values": "^3.6.4"
